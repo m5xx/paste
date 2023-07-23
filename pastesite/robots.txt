@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /create_paste.php
+Disallow: /view_paste.php
+Disallow: /terms.php

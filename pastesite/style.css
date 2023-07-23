@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;0,600;0,800;1,300;1,400&display=swap');
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: url(img/mainbg.svg) no-repeat center center fixed; */
+    background-image: url(img/bg.png), url(img/mainbg.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover, cover;
+    -moz-background-size: cover, cover;
+    -o-background-size: cover, cover;
+    background-size: cover, cover;
+    font-family: 'Montserrat', sans-serif;
+}
+.m-0{
+    margin: 0;
+}
+/* New CSS for the header */
+.header {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px; */
+    text-align: center;
+    padding: 40px;
+}
+
+.header img {
+    height: 80px;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+.panel {
+    width: 100%;
+    max-width: 500px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    /* max-width: 200px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /*    padding: 20px 0px 20px 0px;*/
+}
+
+form {
+    max-width: 600px;
+}
+
+label, 
+h2 {
+    text-align: left;
+    display: block;
+    margin-bottom: 10px;
+    color: #6D78DE;
+    font-weight: 600;
+}
+h2{
+    margin-top: 0;
+}
+h3 {
+    font-weight: 500;
+    opacity: 0.4;
+    font-size: 14px;
+}
+.text-center h2{
+    text-align: center !important;
+}
+
+textarea,
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin-bottom: 30px;
+}
+
+input[type="submit"],
+.btn {
+    text-decoration: none !important;
+    cursor: pointer;
+    margin-top: 20px;
+    background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+    border-width: 0px !important;
+    color: #FFF !important;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 18px;
+    border-radius: 7px;
+    width: 100%;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover,
+.btn:hover {
+    opacity: 0.7
+}
+.btn-fl{
+    display: block;
+    width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.terms{
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 400;
+    opacity: 0.4;
+    margin-top: 8px;
+}
+
+/* Style the copy button */
+#copy-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#copy-button:hover {
+    background-color: #45a049;
+}
+.dono{
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 400;
+    opacity: 0.4;
+    margin-top: 8px;
+}
+.about{
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 400;
+    opacity: 0.4;
+    margin-top: 8px;
+}
